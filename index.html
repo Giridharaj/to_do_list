@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- title -->
+    <title>Docs- To Do</title>
+    <link rel="Website Icon" href="to_do_logo.jpeg">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center min-vh-100">
+        <div class="todo-card p-4 shadow-lg">
+            <h3 class="text-center mb-4">To Do List</h3>
+            <div class="input-group mb-3">
+                <input type="text" id="todo-input" class="form-control" placeholder="What needs to be done?" aria-label="Todo input">
+                <button class="btn btn-primary" type="button" id="add-btn">Add</button>
+            </div>
+            <ul id="todo-list" class="list-group list-group-flash">
+                <!-- Tasks will appear here -->
+            </ul>
+        </div>
+        <button id="clear-btn" class="btn btn-sm btn-outline-danger m">Clear All</button>
+
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>          
+
